@@ -6,6 +6,8 @@
 // @author       You
 // @match        https://www.raidbots.com/simbot*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=freeuse.top
+// @updateURL    https://raw.githubusercontent.com/levilus/simc_chinese_script/refs/heads/main/main.js
+// @downloadURL  https://raw.githubusercontent.com/levilus/simc_chinese_script/refs/heads/main/main.js
 // @grant        none
 // ==/UserScript==
 
