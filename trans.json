@@ -73,7 +73,7 @@
         "Optimal Raid Buffs":"最佳团队增益",
         "No Buffs":"无增益",
         "Consumables":"消耗品",
-        ""SimC Default" uses the default consumables defined in the class APL/module. To verify, you can run a Quick Sim and check buffs to see what was used.":"“SimC Default” 使用的是在职业APL（行动优先级列表）或模块中定义的默认消耗品。要验证这一点，你可以运行一次快速模拟，检查增益效果，查看使用了哪些消耗品。",
+        "\"SimC Default\" uses the default consumables defined in the class APL/module. To verify, you can run a Quick Sim and check buffs to see what was used.":"“SimC Default” 使用的是在职业APL（行动优先级列表）或模块中定义的默认消耗品。要验证这一点，你可以运行一次快速模拟，检查增益效果，查看使用了哪些消耗品。",
         "Potion":"药水",
         "Food":"食物",
         "Flask":"合剂",
@@ -102,7 +102,6 @@
         "Potion of Shocking Disclosure (Quality 2)":"震击揭示药水(2星)",
         "Potion of Shocking Disclosure (Quality 1)":"震击揭示药水(1星)",
         "No Food":"无食物",
-        //"Feast of the Midnight Masquerade (445 Primary Stat)":""
         "Raid Buffs":"团队增益",
         "If your character provides one of these buffs, it may be used even if disabled here":"如果你的角色提供其中一种增益效果，即使在此处禁用，它仍可能被使用",
         "Bloodlust":"嗜血",
