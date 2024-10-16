@@ -48,6 +48,17 @@
         }
         return translatedText
     }
+    function translateUnit(str,before,after){
+        let index = str.indexOf('('+before+')')
+        if( index >= 0) {
+            let subText = str.substring(0,index).trim()
+            let newText = translateLine(subText)
+            if(newText != subText) {
+                return newText+'('+after+')'
+            }
+        }
+        return str
+    }
     // 翻译文本函数：根据自定义词典替换文本
     function translateText(text) {
         let translatedText = text;
@@ -60,7 +71,7 @@
             })
             return newText.join("\n")
         }else {
-            text = translatedText.split(' - ')
+            texts = translatedText.split(' - ')
             if(texts.length > 1) {
                 let newText = []
                 texts.forEach(function(str){
@@ -69,6 +80,9 @@
                 })
                 return newText.join(" - ")
             }else {
+                //每跳处理
+                text = translateUnit(text,'tick','每跳')
+                text = translateUnit(text,'Ready','就绪')
                 return translateLine(text)
             }
         }
