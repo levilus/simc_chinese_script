@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         raidbots翻译
 // @namespace    http://tampermonkey.net/
-// @version      2024-10-14
+// @version      v1.0
 // @description  try to take over the world!
 // @author       You
 // @match        https://www.raidbots.com/simbot*
