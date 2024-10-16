@@ -8610,5 +8610,9 @@
   "gladiator's badge":"角斗士徽章",
   "rise from ash":"灰烬盛放",
   "light's deliverance (hammer of light free)":"圣光裁决(圣光之锤触发)",
-  "spiderling":"小蜘蛛"
+  "spiderling":"小蜘蛛",
+  "hammer of light (ready)": "圣光之锤(就绪)",
+  "use item forged gladiators badge of ferocity":"使用物品：铸造的角斗士的狂野徽章",
+  "wait for resource":"等待资源",
+  "this log provides a sample sequence of actions used in one iteration and will vary between sims based on rng procs/buffs":"该日志提供了一次迭代中使用的动作示例序列，并且在不同模拟中会根据随机数触发效果和增益的不同而有所变化"
 }
