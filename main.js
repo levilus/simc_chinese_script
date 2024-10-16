@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         raidbots翻译
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      2024-10-14
 // @description  try to take over the world!
 // @author       You
 // @match        https://www.raidbots.com/simbot*
@@ -60,7 +60,17 @@
             })
             return newText.join("\n")
         }else {
-            return translateLine(text)
+            text = translatedText.split(' - ')
+            if(texts.length > 1) {
+                let newText = []
+                texts.forEach(function(str){
+                    str = translateLine(str)
+                    newText.push(str)
+                })
+                return newText.join(" - ")
+            }else {
+                return translateLine(text)
+            }
         }
     }
     var version = 1
