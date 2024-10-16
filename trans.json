@@ -8625,6 +8625,6 @@
   "uptime":"持续时间",
   "count":"次数",
   "damage breakdown":"伤害细分",
-  "Ability":"技能",
-  "Amount":"伤害数量"
+  "ability":"技能",
+  "amount":"伤害数量"
 }
