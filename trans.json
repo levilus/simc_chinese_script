@@ -8625,5 +8625,6 @@
   "count":"次数",
   "damage breakdown":"伤害细分",
   "ability":"技能",
-  "amount":"伤害数量"
+  "amount":"伤害数量",
+  "stat weights":"属性权重"
 }
